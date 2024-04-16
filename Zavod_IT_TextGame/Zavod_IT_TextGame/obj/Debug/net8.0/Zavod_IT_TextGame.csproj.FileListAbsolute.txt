@@ -1,0 +1,15 @@
+D:\Projects\C#\textgame_zavod_IT\Zavod_IT_TextGame\Zavod_IT_TextGame\obj\Debug\net8.0\Zavod_IT_TextGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\C#\textgame_zavod_IT\Zavod_IT_TextGame\Zavod_IT_TextGame\obj\Debug\net8.0\Zavod_IT_TextGame.AssemblyInfoInputs.cache
+D:\Projects\C#\textgame_zavod_IT\Zavod_IT_TextGame\Zavod_IT_TextGame\obj\Debug\net8.0\Zavod_IT_TextGame.AssemblyInfo.cs
+D:\Projects\C#\textgame_zavod_IT\Zavod_IT_TextGame\Zavod_IT_TextGame\obj\Debug\net8.0\Zavod_IT_TextGame.csproj.CoreCompileInputs.cache
+D:\Projects\C#\textgame_zavod_IT\Zavod_IT_TextGame\Zavod_IT_TextGame\obj\Debug\net8.0\Zavod_IT_TextGame.sourcelink.json
+D:\Projects\C#\textgame_zavod_IT\Zavod_IT_TextGame\Zavod_IT_TextGame\bin\Debug\net8.0\Zavod_IT_TextGame.exe
+D:\Projects\C#\textgame_zavod_IT\Zavod_IT_TextGame\Zavod_IT_TextGame\bin\Debug\net8.0\Zavod_IT_TextGame.deps.json
+D:\Projects\C#\textgame_zavod_IT\Zavod_IT_TextGame\Zavod_IT_TextGame\bin\Debug\net8.0\Zavod_IT_TextGame.runtimeconfig.json
+D:\Projects\C#\textgame_zavod_IT\Zavod_IT_TextGame\Zavod_IT_TextGame\bin\Debug\net8.0\Zavod_IT_TextGame.dll
+D:\Projects\C#\textgame_zavod_IT\Zavod_IT_TextGame\Zavod_IT_TextGame\bin\Debug\net8.0\Zavod_IT_TextGame.pdb
+D:\Projects\C#\textgame_zavod_IT\Zavod_IT_TextGame\Zavod_IT_TextGame\obj\Debug\net8.0\Zavod_IT_TextGame.dll
+D:\Projects\C#\textgame_zavod_IT\Zavod_IT_TextGame\Zavod_IT_TextGame\obj\Debug\net8.0\refint\Zavod_IT_TextGame.dll
+D:\Projects\C#\textgame_zavod_IT\Zavod_IT_TextGame\Zavod_IT_TextGame\obj\Debug\net8.0\Zavod_IT_TextGame.pdb
+D:\Projects\C#\textgame_zavod_IT\Zavod_IT_TextGame\Zavod_IT_TextGame\obj\Debug\net8.0\Zavod_IT_TextGame.genruntimeconfig.cache
+D:\Projects\C#\textgame_zavod_IT\Zavod_IT_TextGame\Zavod_IT_TextGame\obj\Debug\net8.0\ref\Zavod_IT_TextGame.dll

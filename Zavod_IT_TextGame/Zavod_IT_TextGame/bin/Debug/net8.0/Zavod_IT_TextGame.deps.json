@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Zavod_IT_TextGame/1.0.0": {
+        "runtime": {
+          "Zavod_IT_TextGame.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Zavod_IT_TextGame/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

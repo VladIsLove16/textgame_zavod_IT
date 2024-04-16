@@ -6,27 +6,27 @@ using System.Threading.Tasks;
 
 namespace Zavod_IT_TextGame
 {
-    public class Item
+    public class Item : GameObject
     {
         public string Name { get; set; } = "ItemBase";
-        public string OnGrabMessage = "OnGrabMessage";
+        public string OnExecuteMessage = "OnExecuteMessage";
         public Item(string name)
         {
             Name = name;
         }
-        public Item(string name, string? onGrabMessage)
+        public Item(string name, string? onExecuteMessage)
         {
             Name = name;
-            OnGrabMessage = onGrabMessage??"";
+            OnExecuteMessage = onExecuteMessage??"";
         }
         public Item Grab()
         {
-            OnGrab?.Invoke(OnGrabMessage);
+            OnExecute?.Invoke(OnExecuteMessage);
             return this;
         }
 
-        delegate void ItemHandler(string message);
-        event ItemHandler? OnGrab;
+        public delegate void ItemHandler(string message);
+        public event ItemHandler? OnExecute;
 
     }
 }
