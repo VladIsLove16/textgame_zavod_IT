@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\C#\\textgame_zavod_IT\\Zavod_IT_TextGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B016AAE0-09F8-44CF-8CB6-47ADB56F1431}|Zavod_IT_TextGame\\Zavod_IT_TextGame.csproj|d:\\projects\\c#\\textgame_zavod_it\\zavod_it_textgame\\zavod_it_textgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B016AAE0-09F8-44CF-8CB6-47ADB56F1431}|Zavod_IT_TextGame\\Zavod_IT_TextGame.csproj|solutionrelative:zavod_it_textgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B016AAE0-09F8-44CF-8CB6-47ADB56F1431}|Zavod_IT_TextGame\\Zavod_IT_TextGame.csproj|d:\\projects\\c#\\textgame_zavod_it\\zavod_it_textgame\\zavod_it_textgame\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B016AAE0-09F8-44CF-8CB6-47ADB56F1431}|Zavod_IT_TextGame\\Zavod_IT_TextGame.csproj|solutionrelative:zavod_it_textgame\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B016AAE0-09F8-44CF-8CB6-47ADB56F1431}|Zavod_IT_TextGame\\Zavod_IT_TextGame.csproj|d:\\projects\\c#\\textgame_zavod_it\\zavod_it_textgame\\zavod_it_textgame\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B016AAE0-09F8-44CF-8CB6-47ADB56F1431}|Zavod_IT_TextGame\\Zavod_IT_TextGame.csproj|solutionrelative:zavod_it_textgame\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B016AAE0-09F8-44CF-8CB6-47ADB56F1431}|Zavod_IT_TextGame\\Zavod_IT_TextGame.csproj|d:\\projects\\c#\\textgame_zavod_it\\zavod_it_textgame\\zavod_it_textgame\\main.go||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{B016AAE0-09F8-44CF-8CB6-47ADB56F1431}|Zavod_IT_TextGame\\Zavod_IT_TextGame.csproj|solutionrelative:zavod_it_textgame\\main.go||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B016AAE0-09F8-44CF-8CB6-47ADB56F1431}|Zavod_IT_TextGame\\Zavod_IT_TextGame.csproj|d:\\projects\\c#\\textgame_zavod_it\\zavod_it_textgame\\zavod_it_textgame\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B016AAE0-09F8-44CF-8CB6-47ADB56F1431}|Zavod_IT_TextGame\\Zavod_IT_TextGame.csproj|solutionrelative:zavod_it_textgame\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B016AAE0-09F8-44CF-8CB6-47ADB56F1431}|Zavod_IT_TextGame\\Zavod_IT_TextGame.csproj|d:\\projects\\c#\\textgame_zavod_it\\zavod_it_textgame\\zavod_it_textgame\\gamecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B016AAE0-09F8-44CF-8CB6-47ADB56F1431}|Zavod_IT_TextGame\\Zavod_IT_TextGame.csproj|solutionrelative:zavod_it_textgame\\gamecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B016AAE0-09F8-44CF-8CB6-47ADB56F1431}|Zavod_IT_TextGame\\Zavod_IT_TextGame.csproj|d:\\projects\\c#\\textgame_zavod_it\\zavod_it_textgame\\zavod_it_textgame\\itemcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B016AAE0-09F8-44CF-8CB6-47ADB56F1431}|Zavod_IT_TextGame\\Zavod_IT_TextGame.csproj|solutionrelative:zavod_it_textgame\\itemcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B016AAE0-09F8-44CF-8CB6-47ADB56F1431}|Zavod_IT_TextGame\\Zavod_IT_TextGame.csproj|d:\\projects\\c#\\textgame_zavod_it\\zavod_it_textgame\\zavod_it_textgame\\gamecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B016AAE0-09F8-44CF-8CB6-47ADB56F1431}|Zavod_IT_TextGame\\Zavod_IT_TextGame.csproj|solutionrelative:zavod_it_textgame\\gamecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B016AAE0-09F8-44CF-8CB6-47ADB56F1431}|Zavod_IT_TextGame\\Zavod_IT_TextGame.csproj|d:\\projects\\c#\\textgame_zavod_it\\zavod_it_textgame\\zavod_it_textgame\\zavod_it_textgame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B016AAE0-09F8-44CF-8CB6-47ADB56F1431}|Zavod_IT_TextGame\\Zavod_IT_TextGame.csproj|solutionrelative:zavod_it_textgame\\zavod_it_textgame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerInventory.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\textgame_zavod_IT\\Zavod_IT_TextGame\\Zavod_IT_TextGame\\PlayerInventory.cs",
+              "RelativeDocumentMoniker": "Zavod_IT_TextGame\\PlayerInventory.cs",
+              "ToolTip": "D:\\Projects\\C#\\textgame_zavod_IT\\Zavod_IT_TextGame\\Zavod_IT_TextGame\\PlayerInventory.cs",
+              "RelativeToolTip": "Zavod_IT_TextGame\\PlayerInventory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T10:09:15.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Room.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\textgame_zavod_IT\\Zavod_IT_TextGame\\Zavod_IT_TextGame\\Room.cs",
+              "RelativeDocumentMoniker": "Zavod_IT_TextGame\\Room.cs",
+              "ToolTip": "D:\\Projects\\C#\\textgame_zavod_IT\\Zavod_IT_TextGame\\Zavod_IT_TextGame\\Room.cs",
+              "RelativeToolTip": "Zavod_IT_TextGame\\Room.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T09:38:14.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\textgame_zavod_IT\\Zavod_IT_TextGame\\Zavod_IT_TextGame\\Item.cs",
+              "RelativeDocumentMoniker": "Zavod_IT_TextGame\\Item.cs",
+              "ToolTip": "D:\\Projects\\C#\\textgame_zavod_IT\\Zavod_IT_TextGame\\Zavod_IT_TextGame\\Item.cs",
+              "RelativeToolTip": "Zavod_IT_TextGame\\Item.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T09:25:09.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ItemCollection.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\textgame_zavod_IT\\Zavod_IT_TextGame\\Zavod_IT_TextGame\\ItemCollection.cs",
+              "RelativeDocumentMoniker": "Zavod_IT_TextGame\\ItemCollection.cs",
+              "ToolTip": "D:\\Projects\\C#\\textgame_zavod_IT\\Zavod_IT_TextGame\\Zavod_IT_TextGame\\ItemCollection.cs",
+              "RelativeToolTip": "Zavod_IT_TextGame\\ItemCollection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T16:21:08.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameCases.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\textgame_zavod_IT\\Zavod_IT_TextGame\\Zavod_IT_TextGame\\GameCases.cs",
+              "RelativeDocumentMoniker": "Zavod_IT_TextGame\\GameCases.cs",
+              "ToolTip": "D:\\Projects\\C#\\textgame_zavod_IT\\Zavod_IT_TextGame\\Zavod_IT_TextGame\\GameCases.cs",
+              "RelativeToolTip": "Zavod_IT_TextGame\\GameCases.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:50:51.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameCase.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\textgame_zavod_IT\\Zavod_IT_TextGame\\Zavod_IT_TextGame\\GameCase.cs",
+              "RelativeDocumentMoniker": "Zavod_IT_TextGame\\GameCase.cs",
+              "ToolTip": "D:\\Projects\\C#\\textgame_zavod_IT\\Zavod_IT_TextGame\\Zavod_IT_TextGame\\GameCase.cs",
+              "RelativeToolTip": "Zavod_IT_TextGame\\GameCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:51:48.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Zavod_IT_TextGame.csproj",
+              "DocumentMoniker": "D:\\Projects\\C#\\textgame_zavod_IT\\Zavod_IT_TextGame\\Zavod_IT_TextGame\\Zavod_IT_TextGame.csproj",
+              "RelativeDocumentMoniker": "Zavod_IT_TextGame\\Zavod_IT_TextGame.csproj",
+              "ToolTip": "D:\\Projects\\C#\\textgame_zavod_IT\\Zavod_IT_TextGame\\Zavod_IT_TextGame\\Zavod_IT_TextGame.csproj",
+              "RelativeToolTip": "Zavod_IT_TextGame\\Zavod_IT_TextGame.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-15T15:48:33.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "main.go",
+              "DocumentMoniker": "D:\\Projects\\C#\\textgame_zavod_IT\\Zavod_IT_TextGame\\Zavod_IT_TextGame\\main.go",
+              "RelativeDocumentMoniker": "Zavod_IT_TextGame\\main.go",
+              "ToolTip": "D:\\Projects\\C#\\textgame_zavod_IT\\Zavod_IT_TextGame\\Zavod_IT_TextGame\\main.go",
+              "RelativeToolTip": "Zavod_IT_TextGame\\main.go",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-15T15:46:14.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\textgame_zavod_IT\\Zavod_IT_TextGame\\Zavod_IT_TextGame\\Program.cs",
+              "RelativeDocumentMoniker": "Zavod_IT_TextGame\\Program.cs",
+              "ToolTip": "D:\\Projects\\C#\\textgame_zavod_IT\\Zavod_IT_TextGame\\Zavod_IT_TextGame\\Program.cs",
+              "RelativeToolTip": "Zavod_IT_TextGame\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:45:14.831Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1883,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
