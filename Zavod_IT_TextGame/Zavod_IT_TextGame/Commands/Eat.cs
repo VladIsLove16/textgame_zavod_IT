@@ -12,14 +12,23 @@ namespace Zavod_IT_TextGame.Commands
 
         public string Execute(GameController gameController, params string[] parametrs)
         {
-            if (!gameController.GameState.CurrentRoom.RoomState.State.ContainsKey("CanEat") || !gameController.GameState.CurrentRoom.RoomState.State["CanEat"])
+            Room? CurrentRoom = gameController.GameState.CurrentRoom;
+            if(CurrentRoom == null)
+                return "Вы находитесь в неизвестной комнате, сообщите об ошибке!";
+            if (!CurrentRoom.RoomState.State.ContainsKey("CanEat") || !CurrentRoom.RoomState.State["CanEat"])
                 return "Здесь нельзя есть";
-            if (string.IsNullOrEmpty(parametrs[0]))
+            if (parametrs.Length==0 || string.IsNullOrEmpty(parametrs[0]))
                 return "А что есть будем?";
-            Item food = GameObjectStorage.GetItem(parametrs[0]);
+
+            Item? food = GameObjectStorage.GetItem(parametrs[0]);
             if (food == null)
                 return "Я не знаю такой еды";
-            return food.OnExecuteMessage;
+            food = CurrentRoom.GetItem(parametrs[0]);
+            if (food == null)
+                return "Здесь такого нет";
+            if (!food.CanBeEaten)
+                return "Псих! Это нельзя есть!!";
+             return food.OnExecuteMessage;
         }
     }
 }

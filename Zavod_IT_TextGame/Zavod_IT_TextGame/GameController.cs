@@ -11,7 +11,7 @@ namespace Zavod_IT_TextGame
 {
     public class GameController
     {
-        public Room startRoom;
+        public Room? startRoom;
         public Player Player=new Player();
         public GameState GameState = new GameState();
         public void InitGame()
@@ -31,6 +31,10 @@ namespace Zavod_IT_TextGame
         private void StartGame()
         {
             SendMessage("Игра началась");
+            if (GameState.CurrentRoom == null)
+                SendMessage("Вы находитесь в неизвестной комнате, сообщите об ошибке!");
+            else
+            SendMessage(GameState.CurrentRoom.EnterMessage);
             while (true)
             {
                 GameProcess();
@@ -50,10 +54,7 @@ namespace Zavod_IT_TextGame
             string action_str = commandParts[0];
             ICommand action = GameObjectStorage.GetCommand(action_str);
             string[] parametrs= new string[commandParts.Length-1];
-            for (int i = 0; i < parametrs.Length; i++)
-            {
-                parametrs[i] = commandParts[i+1];
-            }
+            for (int i = 0; i < parametrs.Length; i++) parametrs[i] = commandParts[i+1];
             string answer=action.Execute(this,parametrs);
             return answer;
         }

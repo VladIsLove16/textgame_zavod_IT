@@ -12,7 +12,7 @@ namespace Zavod_IT_TextGame.Commands
 
         public string Execute(GameController gameController, params string[] parametrs)
         {
-            return "Такой команды нет, введите \"помощь\" для вывода доступных";
+            return $"Такой команды нет, введите \"{new Help().Name}\" для вывода доступных";
         }
     }
 }

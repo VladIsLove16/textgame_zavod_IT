@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
+using Zavod_IT_TextGame.Commands;
 
 namespace Zavod_IT_TextGame
 {
@@ -11,30 +13,38 @@ namespace Zavod_IT_TextGame
         private static Dictionary<string, ICommand> commandDict = new Dictionary<string, ICommand>();
         private static Dictionary<string, Room> roomDict = new Dictionary<string, Room>();
         private static Dictionary<string, Item> itemDict = new Dictionary<string, Item>();
-        public static void AddCommand(string name, ICommand command)
+        public static void AddCommand(ICommand command,string? name)
         {
-            commandDict[name] = command;
+            if (name == null) AddCommand(command);
+            else commandDict[name] = command;
         }
-        public static ICommand? GetCommand(string name)
+        public static void AddCommand(ICommand command)
+        {
+            commandDict[command.Name] = command;
+        }
+        public static ICommand GetCommand(string name)
         {
             if (commandDict.ContainsKey(name)) return commandDict[name];
+            else return new Default();
+        }
+        public static List<string> GetAllCommands()
+        {
+            return commandDict.Keys.ToList();
+        }
+        public static Room? GetRoom(string name)
+        {
+            if (roomDict.ContainsKey(name)) return roomDict[name];
             else return null;
-        }
-        public static ICommand[] GetAllCommands()
-        {
-            return commandDict.Values.ToArray();
-        }
-        public static Room GetRoom(string name)
-        {
-            return roomDict[name];
+
         }
         public static void AddRoom(Room room)
         {
             roomDict[room.Name] = room;
         }
-        public static  Item GetItem(string name)
+        public static  Item? GetItem(string name)
         {
-            return itemDict[name];
+            if (itemDict.ContainsKey(name)) return itemDict[name];
+            return null;
         }
         public static void AddItem(Item item)
         {

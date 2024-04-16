@@ -8,6 +8,7 @@ namespace Zavod_IT_TextGame
 {
     public class Item : GameObject
     {
+        public bool CanBeEaten=false;//надо создавать интерфейс IEatable и для всех съедобных объектов наследоваться от него, но времени у меня не осталось и для разных других свойств тоже
         public string Name { get; set; } = "ItemBase";
         public string OnExecuteMessage = "OnExecuteMessage";
         public Item(string name)
@@ -19,10 +20,9 @@ namespace Zavod_IT_TextGame
             Name = name;
             OnExecuteMessage = onExecuteMessage??"";
         }
-        public Item Grab()
+        public void Execute()
         {
             OnExecute?.Invoke(OnExecuteMessage);
-            return this;
         }
 
         public delegate void ItemHandler(string message);

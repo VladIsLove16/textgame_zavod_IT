@@ -11,21 +11,23 @@ namespace Zavod_IT_TextGame.Commands
         public string Name { get; set; } = "Идти";
         public string Execute(GameController gameController, params string[] parametrs)
         {
-            if (string.IsNullOrEmpty(parametrs[0]))
+            Room? CurrentRoom = gameController.GameState.CurrentRoom;
+            if (CurrentRoom == null) return "Вы находитесь в неизвестной комнате, сообщите об ошибке!";
+            if (parametrs.Length == 0 || string.IsNullOrEmpty(parametrs[0]))
                 return "Куда?";
-            Room roomToGo= GameObjectStorage.GetRoom(parametrs[0]);
+            Room? roomToGo= GameObjectStorage.GetRoom(parametrs[0]);
             if (roomToGo == null) 
                 return "Такой комнаты нет";
-            if (!CanGoTo(gameController, roomToGo))
+            if (!CanGoTo(CurrentRoom, roomToGo))
             {
                 return $"Нет пути в {roomToGo.Name}";
             }
             gameController.GameState.SetRoom(roomToGo);
             return roomToGo.EnterMessage;
         }
-        private bool CanGoTo(GameController controller,Room room)
+        private bool CanGoTo(Room fromRoom, Room roomTo)
         {
-            return controller.GameState.CurrentRoom.AdjoiningRooms.Contains(room);
+            return fromRoom.AdjoiningRooms.Contains(roomTo);
         }
     }
 }

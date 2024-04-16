@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace Zavod_IT_TextGame
 {
-    public class Room: GameObject
+    public class Room: GameObject// можно было для создания Кухни или коридора создавать собственные классы, но я решил, будет быстрее и проще не использовать наследование
     {
         public string Name { get; set; } = "Неизвестно";
         public RoomState RoomState = new RoomState();
         private List<Item> items=new();
         private List<ICommand> actions=new();
-        public Room[] AdjoiningRooms { get; private set; } =[];
+        public List<Room> AdjoiningRooms { get;  set; }=new List<Room>();
         public string AddjustmentEnterMessage="";
         public string PreviousEnterMessage = "";
         public string EnterMessage
@@ -27,17 +28,18 @@ namespace Zavod_IT_TextGame
         private string CreateDefaultEnterMessage()
         {
             string message = Name + ",";
-            string s_actions = "можно -";
+            string s_actions = " можно - ";
             if (actions.Any())
             {
                 foreach (ICommand command in actions)
                 {
                     s_actions += command.Name + ", ";
                 }
-                s_actions.Substring(0, s_actions.Length - 2);
+                s_actions=s_actions.Substring(0, s_actions.Length - 2)+". ";
                 message += s_actions;
             }
             else message += "ничего интересного. ";
+
             if (AdjoiningRooms.Any())
             {
                 string s_canGoTo = "Можно пройти - ";
@@ -45,9 +47,11 @@ namespace Zavod_IT_TextGame
                 {
                     s_canGoTo += room.Name + ", ";
                 }
+                s_canGoTo = s_canGoTo.Substring(0, s_canGoTo.Length - 2) + ". ";
+                message += s_canGoTo;
             }
-            else message += "Вы в тупике. ";
-            return message.Trim();
+            else message += " Вы в тупике. ";
+            return message.Trim()+ " ";
         }
 
         delegate void RoomHandler();
@@ -70,18 +74,14 @@ namespace Zavod_IT_TextGame
         {
             items.Remove(item);
         }
-        public Item? GetItem(Item item)
-        {
-            if(items.Contains(item))
-            {
-                return items.FirstOrDefault(item);
-            }
-            return null;
-        }
         public Item? GetItem(string item)
         {
-            Item Item= new Item(item); 
-            return GetItem(Item);
+            Item? Item = items.FirstOrDefault(x => x.Name == item);
+            return Item;
+        }
+        public List<Item> GetAllItems()
+        {
+            return items;
         }
         public void AddAction(ICommand command)
         {
@@ -93,12 +93,13 @@ namespace Zavod_IT_TextGame
         }
         public void AddAdjoiningRoom(Room room)
         {
-            AdjoiningRooms.Append(room);
+            if (AdjoiningRooms == null) AdjoiningRooms = new List<Room>();
+            AdjoiningRooms.Add(room);   
         }
         public void AddAdjoiningRoom(params Room[] room)
         {
             foreach(Room room1 in room)
-             AdjoiningRooms.Append(room1);
+                AddAdjoiningRoom(room1);
         }
 
         public void Enter()

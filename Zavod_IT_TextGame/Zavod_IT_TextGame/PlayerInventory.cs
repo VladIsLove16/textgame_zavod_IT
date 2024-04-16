@@ -8,8 +8,7 @@ namespace Zavod_IT_TextGame
 {
     public class PlayerInventory
     {
-        private List<Item> _items;
-        public PlayerInventory() { }
+        private List<Item> _items=new ();
         public void Put(Item item) 
         {
             _items.Add(item);

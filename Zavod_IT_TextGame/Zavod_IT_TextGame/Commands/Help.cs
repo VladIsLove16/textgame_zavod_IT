@@ -12,11 +12,14 @@ namespace Zavod_IT_TextGame.Commands
 
         public string Execute(GameController gameController, params string[] parametrs)
         {
-            ICommand[] commands=  GameObjectStorage.GetAllCommands();
-            string answer = "Доступные действия: \n";
-            foreach (var command in commands)
+            List<string> commands=  GameObjectStorage.GetAllCommands();
+            int CommandCount = commands.Count;
+            string answer = $"Доступные действия: {CommandCount} \n";
+            Console.WriteLine(answer);
+           
+            for (int i = 0; i < CommandCount;i++)
             {
-                answer.Concat("- "+command.Name+"\n");
+                answer += "- "+ commands[i]+"\n";
             }
             return answer;
         }
